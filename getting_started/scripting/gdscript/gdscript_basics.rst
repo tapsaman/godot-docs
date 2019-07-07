@@ -1529,7 +1529,7 @@ the :ref:`Object.connect() <class_Object_method_connect>` method:
 
         # We emit the health_changed signal every time the
         # character takes damage
-        emit_signal(health_changed", old_health, health)
+        emit_signal("health_changed", old_health, health)
     ...
 
 ::
